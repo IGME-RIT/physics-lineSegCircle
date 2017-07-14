@@ -329,8 +329,8 @@ void init()
 	Line.point2 = glm::vec2(0.5f, 0.0f);
 
 	// Read in the shader code from a file.
-	std::string vertShader = readShader("VertexShader.glsl");
-	std::string fragShader = readShader("FragmentShader.glsl");
+	std::string vertShader = readShader("../VertexShader.glsl");
+	std::string fragShader = readShader("../FragmentShader.glsl");
 
 	// createShader consolidates all of the shader compilation code
 	vertex_shader = createShader(vertShader, GL_VERTEX_SHADER);

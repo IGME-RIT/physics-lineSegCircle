@@ -34,7 +34,7 @@ and checks if that point lies inside the circle. If so, collision is detected el
 #ifndef _GL_INCLUDES_H
 #define _GL_INCLUDES_H
 
-#include "glew\glew.h"
+#include "gl\glew.h"
 #include "glfw\glfw3.h"
 #include "glm\glm.hpp"
 #include "glm\gtc\matrix_transform.hpp"
